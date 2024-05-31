@@ -54,7 +54,7 @@ function ClientReview () {
   return (
     <section  className="lg:h-auto h-[25rem] lg:mb-0 mb-10 relative w-full">
       <div className="hidden w-full h-[500px] lg:block ">
-        <Image src={Banner} alt="flower background" className="bg-cover h-full w-full" />
+        <Image src={Banner} unoptimized={true} alt="flower background" className="bg-cover h-full w-full" />
       </div>
       <div className="lg:px-[6.22vw] flex items-center justify-center flex-col w-full lbg-white  backdrop-filter lg:rounded-none rounded-lg lg:border-none border border-[#372b25] backdrop-blur-sm bg-opacity-10 animate-fade absolute top-1/2 -translate-y-1/2">
         <p className="text-[#070403] font-bold text-base mb-4 mt-6 lg:text-3xl">What Our Customers Are Saying</p>

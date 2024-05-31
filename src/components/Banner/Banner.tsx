@@ -41,6 +41,7 @@ export default function Banner () {
             src={Cater1}
             className="w-full h-full object-cover rounded-md"
             alt="banner"
+            unoptimized={true}
             onLoad={() => setIsLoaded(true)}
           />
         </motion.div>

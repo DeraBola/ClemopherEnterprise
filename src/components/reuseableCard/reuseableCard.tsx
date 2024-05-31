@@ -50,7 +50,12 @@ function ReusableCard ({
         className="bg-[#080808] bg-opacity-[70%] p-7 lg:w-1/2 w-full"
       >
         {img && (
-          <Image src={img && img} onLoad={() => setIsLoaded(true)} alt="" />
+          <Image
+            src={img && img}
+            onLoad={() => setIsLoaded(true)}
+            alt=""
+            unoptimized={true}
+          />
         )}
       </motion.div>
 

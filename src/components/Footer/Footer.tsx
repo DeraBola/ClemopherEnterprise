@@ -46,7 +46,7 @@ export default function Footer () {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center text-sm lg:text-xl gap-2 justify-center w-full">
+      <div className="flex flex-col lg:flex-row items-center text-sm lg:text-xl gap-2 justify-center w-full">
         <p className="text-white font-semibold">
         &copy; 2002 All rights reserved
         </p>

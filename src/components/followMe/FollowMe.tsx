@@ -27,7 +27,7 @@ function FollowMe () {
           ref={scrollRef}
           className="hover:scale-110 transition-all cursor-pointer"
         >
-          <Image src={SmallChops} alt="first lady" />
+          <Image unoptimized={true} src={SmallChops} alt="first lady" />
         </motion.div>
         <motion.div
           variants={appear2}
@@ -37,7 +37,7 @@ function FollowMe () {
           ref={scrollRef}
           className="transform translate-y-32 hover:scale-110 transition-all cursor-pointer"
         >
-          <Image src={Cocktail2} alt="second lady" />
+          <Image unoptimized={true} src={Cocktail2} alt="second lady" />
         </motion.div>
         <motion.div
           variants={appear4}
@@ -47,7 +47,7 @@ function FollowMe () {
           ref={scrollRef}
           className="transform translate-y-52 hover:scale-110 transition-all cursor-pointer"
         >
-          <Image src={Cake} alt="third lady" />
+          <Image unoptimized={true} src={Cake} alt="third lady" />
         </motion.div>
         <motion.div
           variants={appear3}
@@ -57,7 +57,7 @@ function FollowMe () {
           ref={scrollRef}
           className="transform translate-y-40 hover:scale-110 transition-all cursor-pointer"
         >
-          <Image src={Food2} alt="first lady" />
+          <Image unoptimized={true} src={Food2} alt="first lady" />
         </motion.div>
         <motion.div
           variants={appear}
@@ -68,7 +68,7 @@ function FollowMe () {
           className="hover:scale-110 transition-all cursor-pointer"
         >
           {" "}
-          <Image src={Cocktail} alt="first lady" />
+          <Image unoptimized={true} src={Cocktail} alt="first lady" />
         </motion.div>
       </div>
     </section>

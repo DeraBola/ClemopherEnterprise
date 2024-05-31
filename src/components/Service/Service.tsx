@@ -2,7 +2,7 @@
 import React from "react";
 import ReusableCard from "@/components/reuseableCard/reuseableCard";
 import ReusableCardServiceCard from "@/components/reuseableCard/reuseableServiceCard";
-import { Cater2, Cater3, Cater4, FirstImage } from "../../../public/assets";
+import { Cater2, Cater3 } from "../../../public/assets";
 
 function Service () {
   return (

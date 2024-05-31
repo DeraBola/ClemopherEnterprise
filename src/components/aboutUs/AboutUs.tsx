@@ -9,7 +9,10 @@ function AboutUs () {
       <p className=" lg:text-4xl text-xl font-bold text-[#070403]">ABOUT US</p>
       <div className="flex lg:flex-row flex-col gap-6 items-start justify-start ">
         <div className="bg-[#080808] p-7 lg:w-1/2 bg-opacity-[70%] w-full">
-          <Image src={Cater4} alt="" />
+          <Image
+            src={Cater4}
+            alt=""
+            unoptimized={true} />
         </div>
         <div className="flex flex-col text-[#070403] gap-4 w-full lg:w-1/2 items-start justify-start">
           <p className="lg:text-lg text-base font-normal">
