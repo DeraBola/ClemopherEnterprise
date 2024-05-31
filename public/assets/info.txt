@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Fascinate-Regular
+font link: https://fonts.google.com/specimen/Fascinate
+font author: Astigmatic
+font author site: http://www.astigmatic.com/
+
+
+icon designer: Icons By Alfredo
+icon designer link: /AlfredoCreates
+        
+{"bg":"#826F69","icon":"#F0E9DA","font":"#F0E9DA","slogan":"#fffdee"}
+      
