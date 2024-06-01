@@ -35,7 +35,7 @@ export default function Banner () {
           }
           transition={{ duration: 1, delay: 1 }}
           viewport={{ once: true }}
-          className="w-[50%] h-[25rem]"
+          className="lg:w-[50%] w-full h-[25rem]"
         >
           <Image
             src={Cater1}
@@ -52,7 +52,7 @@ export default function Banner () {
             initial="hide"
             whileInView="show"
             ref={scrollRef}
-            className="text-white font-bold text-2xl lg:text-4xl"
+            className="text-white font-bold text-xl"
           >
             What We Do
           </motion.p>
@@ -62,7 +62,7 @@ export default function Banner () {
             initial="hide"
             whileInView="show"
             ref={scrollRef}
-            className="text-white font-semibold text-base lg:text-lg"
+            className="text-white font-normal lg:text-base text-sm"
           >
            With years of experience in the catering industry, our skilled chefs and professional staff are dedicated to delivering an exceptional culinary experience. We use only the freshest ingredients, ensuring that each dish bursts with flavor and quality. Our team stays at the forefront of the industry by employing the latest culinary techniques, crafting innovative and delectable menus. Whether you&rsquo;re looking for traditional favorites or contemporary creations, we tailor our offerings to reflect your unique taste and style. Our commitment to excellence shines through in every detail, from the first bite to the final presentation. We pride ourselves on providing not just a meal, but an unforgettable dining experience. Let us bring our passion for food and dedication to service to your next event, making it truly special.
           </motion.p>
@@ -74,7 +74,7 @@ export default function Banner () {
             ref={scrollRef}
             className="text-[#080808]  bg-white  py-4 px-16 rounded-lg hover:bg-white   hover:!scale-110 transition-all"
           >
-            Let’s Chat
+            <a href="mailto:communications@clemopherenterprise.com"> Let’s Chat</a>
           </motion.button>
           <motion.div
             variants={fadeUp4}
@@ -85,7 +85,7 @@ export default function Banner () {
             className="flex items-center cursor-pointer bg-white px-3 py-2.5 rounded-md justify-center gap-5"
           >
             <a href="tel:0911002222" className=""><Call color="#00000099" size={25} variant="Bold" /></a>
-            <a href="communications@clemopherenterprise.com" className=""><Message color="#00000099" size={25} variant="Bold" /></a>
+            <a href="mailto:communications@clemopherenterprise.com" className=""><Message color="#00000099" size={25} variant="Bold" /></a>
             <Icons.instagram />
             <Icons.twitter />
           </motion.div>

@@ -8,7 +8,7 @@ export default function Footer () {
   return (
     <div className="lg:mt-80 mt-20 bg-[#080808] flex flex-col px-2 justify-center items-center">
       <div className="w-full lg:hidden  block mb-8 px-5 cursor-pointer flex-col items-center justify-between">
-        <div className="flex flex-col lg:flex-row items-start w-full justify-between mt-5 lg:mt-10">
+        <div className="flex flex-col lg:flex-row lg:gap-0 gap-4 items-start w-full justify-between mt-5 lg:mt-10">
           <div className="lg:block hidden flex-col items-start justify-start">
             <p className="text-base mb-4 text-white font-normal">Get familiar</p>
             <div className="flex items-center justify-start gap-8">
@@ -36,7 +36,7 @@ export default function Footer () {
             </div>
           </div>
         </div>
-        <div className="lg:hidden mt-3 bg-white rounded-md border lg:bg-inherit block flex-col items-start justify-start">
+        {/* <div className="lg:hidden mt-3 p-2 bg-white rounded-md border lg:bg-inherit block flex-col items-start justify-start">
           <p className="text-base mb-3 text-[#341616] lg:text-white font-normal">Get familiar</p>
           <div className="flex items-center justify-start lg:justify-start gap-8">
             <Icons.facebook />
@@ -44,13 +44,13 @@ export default function Footer () {
             <Icons.instagram />
             <Icons.twitter />
           </div>
-        </div>
+        </div> */}
       </div>
-      <div className="flex flex-col lg:flex-row items-center text-sm lg:text-xl gap-2 justify-center w-full">
+      <div className="flex flex-col lg:flex-row items-center text-sm text-base gap-2 justify-center w-full">
         <p className="text-white font-semibold">
         &copy; 2002 All rights reserved
         </p>
-        <p  className="text-white  font-medium">  by <Link href="https://github.com/DeraBola/" target="_blank">derabola</Link>  x <Link href="https://github.com/rogue-codes/" target="_blank">rogue-codes.</Link> </p>
+        <p  className="text-white  font-medium">Clemopher Enterprise </p>
       </div>
     </div>
   );

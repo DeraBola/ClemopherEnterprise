@@ -25,7 +25,7 @@ function FollowMe () {
           initial="hide"
           whileInView="show"
           ref={scrollRef}
-          className="hover:scale-110 transition-all cursor-pointer"
+          className="hover:scale-110 transition-all cursor-pointer w-[40%] h-auto"
         >
           <Image unoptimized={true} src={SmallChops} alt="first lady" />
         </motion.div>
@@ -35,7 +35,7 @@ function FollowMe () {
           initial="hide"
           whileInView="show"
           ref={scrollRef}
-          className="transform translate-y-32 hover:scale-110 transition-all cursor-pointer"
+          className="transform translate-y-32 hover:scale-110 transition-all cursor-pointer w-[40%] h-auto"
         >
           <Image unoptimized={true} src={Cocktail2} alt="second lady" />
         </motion.div>
@@ -45,7 +45,7 @@ function FollowMe () {
           initial="hide"
           whileInView="show"
           ref={scrollRef}
-          className="transform translate-y-52 hover:scale-110 transition-all cursor-pointer"
+          className="transform translate-y-52 hover:scale-110 transition-all cursor-pointer w-[40%] h-auto"
         >
           <Image unoptimized={true} src={Cake} alt="third lady" />
         </motion.div>
@@ -55,7 +55,7 @@ function FollowMe () {
           initial="hide"
           whileInView="show"
           ref={scrollRef}
-          className="transform translate-y-40 hover:scale-110 transition-all cursor-pointer"
+          className="w-[40%] h-auto transform translate-y-40 hover:scale-110 transition-all cursor-pointer"
         >
           <Image unoptimized={true} src={Food2} alt="first lady" />
         </motion.div>
@@ -65,7 +65,7 @@ function FollowMe () {
           initial="hide"
           whileInView="show"
           ref={scrollRef}
-          className="hover:scale-110 transition-all cursor-pointer"
+          className="w-[40%] h-auto hover:scale-110 transition-all cursor-pointer"
         >
           {" "}
           <Image unoptimized={true} src={Cocktail} alt="first lady" />

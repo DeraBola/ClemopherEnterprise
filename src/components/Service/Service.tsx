@@ -7,7 +7,7 @@ import { Cater2, Cater3 } from "../../../public/assets";
 function Service () {
   return (
     <section id="services" className="mt-14 gap-4">
-      <div className="flex flex-col lg:gap-0 gap-5 px-[6.22vw] pb-14">
+      <div className="flex flex-col lg:gap-10 gap-5 px-[6.22vw] pb-14">
         <ReusableCard
           text1="Service package"
           text2="We offer a diverse range of catering solutions, from onshore and offshore catering services to executive dining and basic vendor solutions. Whether you’re planning an intimate gathering for 30, a corporate lunch for 150, or a grand wedding for 800 guests, our team is equipped to deliver delectable meals with impeccable presentation and flawless service."

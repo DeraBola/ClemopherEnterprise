@@ -17,9 +17,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="top-0 px-[6.22vw] z-[99999990] flex bg-white justify-between items-center bg-opacity-[42%] fixed py-4 w-full">
+    <nav className="top-0 lg:px-[6.22vw] px-4 z-[99999990] flex bg-white justify-between items-center  fixed py-4 w-full">
       <Link href="#home" className="w-full">
-        <div className="lg:w-[30%] w-[200px] lg:h-12 h-8">
+        <div className="lg:w-16 w-[20%] h-auto flex items-center justify-center bg-black rounded-full">
           <Image className="w-full h-full object-cover" src={CompanyLogo} alt="" />
         </div>
       </Link>

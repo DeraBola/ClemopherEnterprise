@@ -47,7 +47,7 @@ function ReusableCard ({
         }
         transition={{ duration: 1, delay: 1 }}
         viewport={{ once: true }}
-        className="bg-[#080808] bg-opacity-[70%] p-7 lg:w-1/2 w-full"
+        className="bg-[#080808] bg-opacity-[70%] lg:p-7 p-4 lg:w-1/2 w-full"
       >
         {img && (
           <Image
@@ -68,9 +68,9 @@ function ReusableCard ({
               initial="hide"
               whileInView="show"
               ref={scrollRef}
-              className="text-xl flex items-center justify-start text-left"
+              className="text-base flex items-center justify-start text-left"
             >
-              <div className="rounded-full bg-[#080808] mr-3 hover:translate-x-2 h-3 w-3 lg:h-6 lg:w-6"></div> <p className="text-base lg:text-lg"> Corporate event catering</p>
+              <div className="rounded-full bg-[#080808] mr-3 hover:translate-x-2 h-3 w-3 lg:h-6 lg:w-6"></div> <p className="text-base"> Corporate event catering</p>
             </motion.li>
             <motion.li
               variants={fadeUp1}
@@ -81,7 +81,7 @@ function ReusableCard ({
               className="my-2 flex items-center justify-start text-xl text-left"
             >
               <div className="rounded-full bg-[#080808] mr-3 hover:translate-x-2 h-3 w-3 lg:h-6 lg:w-6"></div>
-              <p className="text-base font-normal lg:text-lg">Traditional buffet</p>
+              <p className="text-base font-normal">Traditional buffet</p>
             </motion.li>
             <motion.li
               variants={fadeUp1}
@@ -89,10 +89,10 @@ function ReusableCard ({
               initial="hide"
               whileInView="show"
               ref={scrollRef}
-              className="text-xl flex items-center justify-start text-left"
+              className="text-base flex items-center justify-start text-left"
             >
               <div className="rounded-full bg-[#080808] mr-3 hover:translate-x-2 h-3 w-3 lg:h-6 lg:w-6"></div>
-              <p className="text-base font-normal lg:text-lg">Industrial catering</p>
+              <p className="text-base font-normal">Industrial catering</p>
             </motion.li>
             <motion.li
               variants={fadeUp1}
@@ -103,7 +103,7 @@ function ReusableCard ({
               className="text-xl mt-2 flex items-center justify-start text-left"
             >
               <div className="rounded-full bg-[#080808] mr-3 hover:translate-x-2 w-3 h-3 lg:h-6 lg:w-6"></div>
-              <p className="text-base font-normal lg:text-lg"> Event catering</p>
+              <p className="text-base font-normal"> Event catering</p>
             </motion.li>
             <motion.li
               variants={fadeUp1}
@@ -114,7 +114,7 @@ function ReusableCard ({
               className="my-2 text-xl flex items-center justify-start text-left"
             >
               <div className="rounded-full bg-[#080808] mr-3 hover:translate-x-2 h-3 w-3 lg:h-6 lg:w-6"></div>
-              <p className="text-base font-normal lg:text-lg"> Office catering</p>
+              <p className="text-base font-normal"> Office catering</p>
             </motion.li>
             <motion.li
               variants={fadeUp2}
@@ -125,7 +125,7 @@ function ReusableCard ({
               className="text-xl flex items-center justify-start text-left"
             >
               <div className="rounded-full bg-[#080808] mr-3 hover:translate-x-2 w-3 h-3 lg:h-6 lg:w-6"></div>
-              <p className="text-base font-normal lg:text-lg">Outdoor Catering</p>
+              <p className="text-base font-normal">Outdoor Catering</p>
             </motion.li>
             <motion.li
               variants={fadeUp3}
@@ -136,7 +136,7 @@ function ReusableCard ({
               className="text-xl flex items-center justify-start text-left"
             >
               <div className="rounded-full mt-2 bg-[#080808] hover:translate-x-2 mr-3 w-3 h-3 lg:h-6 lg:w-6"></div>
-              <p className="text-base  font-normal lg:text-lg">Buffet Catering</p>
+              <p className="text-base font-normal">Buffet Catering</p>
             </motion.li>
             <motion.li
               variants={fadeUp4}
@@ -147,7 +147,7 @@ function ReusableCard ({
               className="my-2 flex items-center justify-start text-xl text-left"
             >
               <div className="rounded-full bg-[#080808] mr-3 hover:translate-x-2 h-3 w-3 lg:h-6 lg:w-6"></div>
-              <p className="text-base font-normal lg:text-lg"> Private Parties</p>
+              <p className="text-base font-normal"> Private Parties</p>
             </motion.li>
           </ol>
         ) : (
@@ -168,7 +168,7 @@ function ReusableCard ({
               initial="hide"
               whileInView="show"
               ref={scrollRef}
-              className="lg:text-xl text-left mt-3 text-lg text-[#070403] font-normal"
+              className="text-base text-left mt-3 text-[#070403] font-normal"
             >
               {text2}
             </motion.p>
@@ -178,7 +178,7 @@ function ReusableCard ({
               initial="hide"
               whileInView="show"
               ref={scrollRef}
-              className="lg:text-lg text-left mt-3 text-lg text-[#070403] font-normal"
+              className="lg:text-base text-left mt-3 text-lg text-[#070403] font-normal"
             >
               {text3}
             </motion.p>
