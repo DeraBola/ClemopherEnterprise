@@ -26,7 +26,7 @@ function ReusableCardServiceCard ({ text1, text2 }: ReuseableCardProps) {
         <p className="lg:text-2xl text-xl font-bold text-black ">{text1}</p>
         <p className="lg:text-base text-sm text-normal lg:text-start text-center text-[#070403] !font-normal">{text2}</p>
         <a href="mailto:communications@clemopherenterprise.com"  className="text-white lg:text-lg text-base bg-[#070403] bg-opacity-[95%] py-4 px-6 lg:px-16 rounded-lg hover:scale-110 transition-all">
-          Contact me
+          Contact Us
         </a>
       </div>
     </motion.div>
